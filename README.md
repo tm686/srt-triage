@@ -10,6 +10,14 @@
                                 |___|
 ```
 
+![srt-triage main view](docs/tui-main.png)
+
+*Ranked host list with score bars, triage badges, and live detail panel showing ports, NSE scripts, and score breakdown.*
+
+![srt-triage detail view](docs/tui-detail.png)
+
+*Tomcat host selected — AJP connector, exposed Manager app, full script output and scoring breakdown.*
+
 ## Why
 
 Most recon tools blast every target equally and dump flat output. In a real engagement you need to **prioritize** — the Domain Controller with EternalBlue matters more than the mail server running Postfix.
@@ -24,7 +32,7 @@ srt-triage solves this with:
 ## Quick Start
 
 ```bash
-git clone https://github.com/<you>/srt-triage.git
+git clone https://github.com/tm686/srt-triage.git
 cd srt-triage
 ./install.sh          # checks deps, installs missing tools
 python3 srt_triage.py 10.0.0.0/24
