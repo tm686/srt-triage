@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+*.xml
+.env
+*.swp
+*~
+run_tui.sh

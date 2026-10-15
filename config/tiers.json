@@ -1,0 +1,15 @@
+{
+  "tier1": {
+    "scan_type": "curated",
+    "nmap_flags": ["-sC", "-sV", "--open"],
+    "rustscan_batch_size": 1000,
+    "rustscan_ulimit": 5000,
+    "timeout": 600
+  },
+  "tier2": {
+    "scan_type": "full",
+    "nmap_flags": ["-p-", "-sC", "-sV", "--open"],
+    "requires_promotion": true,
+    "timeout": 1800
+  }
+}

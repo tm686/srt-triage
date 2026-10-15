@@ -1,0 +1,8 @@
+{
+  "bin_dir": "/opt/tools/bin",
+  "nmap": "nmap",
+  "rustscan": "rustscan",
+  "httpx": "httpx",
+  "searchsploit": "searchsploit",
+  "ffuf": "ffuf"
+}
